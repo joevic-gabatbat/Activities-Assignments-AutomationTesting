@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testing-1.0.dtd">
+<suite name="Practice Suite">
+	<listeners>
+		<listener class-name="com.ListenerExample"/>
+	</listeners>
+	<test name="Launch Sample">
+		<classes>
+<!--			<class name="com.ActivityDay11"/>-->
+			<class name="com.BasicTest"/>
+		</classes>
+	</test>
+</suite>

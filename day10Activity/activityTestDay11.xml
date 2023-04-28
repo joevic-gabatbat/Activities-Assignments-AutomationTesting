@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testing-1.0.dtd">
+<suite name="Practice Suite">
+	<listeners>
+		<listener class-name="com.ListenerExample"/>
+	</listeners>
+	<test name="Launch Sample">
+		<parameter name="browser" value="Chrome" />
+		<parameter name="title" value="Hello Worlds!" />
+		<classes>
+			<class name="com.ActivityDay11" />
+		</classes>
+	</test>
+</suite>
