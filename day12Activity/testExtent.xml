@@ -1,0 +1,10 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE suite SYSTEM "https://testng.org/testing-1.0.dtd">-->
+<!--<suite name="Activity Day 12 Suite">-->
+<!--	<test name="Launch Extent Test">-->
+<!--		<parameter name="url" value="https://www.facebook.com/" />-->
+<!--		<classes>-->
+<!--			<class name="test.TestFBExtent" />-->
+<!--		</classes>-->
+<!--	</test>-->
+<!--</suite>-->
