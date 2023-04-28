@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Activity Day 11 Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Launch Test(failed)">
+    <parameter name="url" value="https://www.amazon.com/"/>
+    <classes>
+      <class name="test.TestActivityDay11">
+        <methods>
+          <include name="verifyCustomerServiceTestMethod"/>
+          <include name="afterClass"/>
+          <include name="verifyOrdersMethod"/>
+          <include name="verifyDeleteProductTestMethod"/>
+          <include name="verifyBrowsingHistoryTestMethod"/>
+          <include name="verifySearchTestMethod"/>
+          <include name="verifyAddProductTestMethod"/>
+          <include name="verifyAddTwoProductTestMethod"/>
+          <include name="beforeClass"/>
+          <include name="verifyLoginTestMethod"/>
+          <include name="verifyAccountMethod"/>
+          <include name="verifyLogoutTestMethod"/>
+        </methods>
+      </class> <!-- test.TestActivityDay11 -->
+    </classes>
+  </test> <!-- Launch Test(failed) -->
+</suite> <!-- Failed suite [Activity Day 11 Suite] -->
