@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testing-1.0.dtd">
+<suite name="Activity Day 11 Suite">
+	<test name="Launch Test">
+		<parameter name="url" value="https://www.amazon.com/" />
+		
+		<classes>
+			<class name="test.TestActivityDay11" />
+		</classes>
+	</test>
+</suite>
